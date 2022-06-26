@@ -11,7 +11,7 @@ mainClient.close()
 
 soupObject = BeautifulSoup(htmlPage, 'html.parser')
 
-for link in soupObject.tbody.tr.td.a:
+for link in soupObject.find_all('a'):
 
     linkString = str(link)
 
