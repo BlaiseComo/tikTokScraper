@@ -1,2 +1,2 @@
 # tikTokScraper
-Algorithm I made for my brother that uses a TikTokApi library to scrape through data from tik toks and gets the most popular hashtags
+Algorithm I made for my brother that uses a dataset from kaggle of 1000 trending videos and extracts the hashtags and sorts them by popularity
